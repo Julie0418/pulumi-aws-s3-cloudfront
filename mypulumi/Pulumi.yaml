@@ -1,5 +1,5 @@
 name: mypulumi
-description: A minimal AWS TypeScript Pulumi program
+description: A TypeScript program to deploy a static website on AWS
 runtime:
   name: nodejs
   options:
@@ -7,4 +7,4 @@ runtime:
 config:
   pulumi:tags:
     value:
-      pulumi:template: aws-typescript
+      pulumi:template: static-website-aws-typescript
