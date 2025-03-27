@@ -27,7 +27,7 @@ jobs:
         with:
           role-to-assume: arn:aws:iam::557690603426:role/khatoon-pulumi-role
           aws-region: ${{ secrets.AWS_REGION }}
-          audience: aws:Julie0418 # Updated audience to match your AWS configuration
+          audience: sts.amazonaws.com # Updated audience to match your AWS configuration
 
       - name: Install Dependencies
         working-directory: ./mypulumi
